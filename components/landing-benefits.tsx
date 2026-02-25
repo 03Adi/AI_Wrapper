@@ -31,7 +31,7 @@ export function LandingBenefits() {
         <div className="mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">Proven Results</h2>
           <p className="text-lg text-muted-foreground max-w-2xl">
-            See how ResumeAI has helped thousands of job seekers land their dream roles.
+            See how Arexa AI has helped thousands of job seekers land their dream roles.
           </p>
         </div>
 

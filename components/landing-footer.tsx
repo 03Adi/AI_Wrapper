@@ -14,9 +14,9 @@ export function LandingFooter() {
           <div>
             <div className="flex items-center gap-2 font-bold text-lg mb-4">
               <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center text-primary-foreground font-bold">
-                R
+                A
               </div>
-              <span>ResumeAI</span>
+              <span>Arexa AI</span>
             </div>
             <p className="text-sm text-muted-foreground">
               AI-powered resume and cover letter generation for your dream job.
@@ -60,7 +60,7 @@ export function LandingFooter() {
         {/* Bottom Section */}
         <div className="border-t border-border pt-8 flex flex-col md:flex-row items-center justify-between gap-6">
           <p className="text-sm text-muted-foreground">
-            © {currentYear} ResumeAI. All rights reserved.
+            © {currentYear} Arexa AI. All rights reserved.
           </p>
 
           {/* Social Links */}

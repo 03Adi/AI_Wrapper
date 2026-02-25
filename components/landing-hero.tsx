@@ -28,13 +28,15 @@ export function LandingHero() {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Button size="lg" className="gap-2" asChild>
-            <Link href="/app">
+            <Link href="/signup">
               Start Building
               <ArrowRight className="w-4 h-4" />
             </Link>
           </Button>
-          <Button variant="outline" size="lg">
-            View Demo
+          <Button variant="outline" size="lg" asChild>
+            <Link href="/signin">
+              Sign In
+            </Link>
           </Button>
         </div>
 

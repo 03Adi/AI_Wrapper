@@ -54,7 +54,7 @@ export function Sidebar({ activeTab, onTabChange }: SidebarProps) {
               <Image src="/ai_icon.png" alt="AI" width={24} height={24} />
             </div>
             <div>
-              <h1 className="text-lg font-bold text-sidebar-foreground">ResumeAI</h1>
+              <h1 className="text-lg font-bold text-sidebar-foreground">Arexa AI</h1>
               <p className="text-xs text-muted-foreground">Powered by AI</p>
             </div>
           </div>

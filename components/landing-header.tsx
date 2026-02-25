@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
+import { ThemeToggle } from '@/components/theme-toggle'
 
 export function LandingHeader() {
   return (
@@ -10,9 +11,9 @@ export function LandingHeader() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 font-bold text-xl">
           <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center text-primary-foreground font-bold">
-            R
+            A
           </div>
-          <span>ResumeAI</span>
+          <span>Arexa AI</span>
         </Link>
 
         {/* Navigation */}
@@ -33,11 +34,12 @@ export function LandingHeader() {
 
         {/* CTA Buttons */}
         <div className="flex items-center gap-3">
+          <ThemeToggle />
           <Button variant="ghost" size="sm" asChild>
-            <Link href="/app">Sign In</Link>
+            <Link href="/signin">Sign In</Link>
           </Button>
           <Button size="sm" asChild>
-            <Link href="/app">Get Started</Link>
+            <Link href="/signup">Get Started</Link>
           </Button>
         </div>
       </div>

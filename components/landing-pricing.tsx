@@ -101,7 +101,7 @@ export function LandingPricing() {
                 size="lg"
                 asChild
               >
-                <Link href="/app">
+                <Link href="/signup">
                   {plan.cta}
                 </Link>
               </Button>

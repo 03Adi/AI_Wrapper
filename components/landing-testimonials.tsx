@@ -6,7 +6,7 @@ const testimonials = [
   {
     name: 'Sarah Chen',
     title: 'Product Manager at TechCorp',
-    content: 'ResumeAI saved me hours of writing and got me 3 interviews in one week. The AI suggestions were incredibly relevant.',
+    content: 'Arexa AI saved me hours of writing and got me 3 interviews in one week. The AI suggestions were incredibly relevant.',
     rating: 5
   },
   {
@@ -18,13 +18,13 @@ const testimonials = [
   {
     name: 'Emma Rodriguez',
     title: 'Marketing Specialist',
-    content: 'After 20+ applications with no luck, ResumeAI helped me land 2 offers in my target companies. Highly recommend!',
+    content: 'After 20+ applications with no luck, Arexa AI helped me land 2 offers in my target companies. Highly recommend!',
     rating: 5
   },
   {
     name: 'David Park',
     title: 'Data Analyst',
-    content: 'The ATS optimization is real. I started getting callbacks immediately after using ResumeAI. Best investment for my job search.',
+    content: 'The ATS optimization is real. I started getting callbacks immediately after using Arexa AI. Best investment for my job search.',
     rating: 5
   }
 ]
@@ -37,7 +37,7 @@ export function LandingTestimonials() {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">Loved by Job Seekers</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Real stories from real people who landed their dream jobs with ResumeAI.
+            Real stories from real people who landed their dream jobs with Arexa AI.
           </p>
         </div>
 
